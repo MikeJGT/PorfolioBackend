@@ -1,0 +1,11 @@
+@host=http://localhost:3000/mail
+
+
+###
+POST  {{host}}
+Content-Type: application/json
+
+{
+    "subject":"Subject",
+    "text": "Hi from Mike Porfolio"
+}
